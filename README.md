@@ -2,7 +2,7 @@
 <h2>En liten samling projekt jag skapat under årets gång under tiden jag lärt mig att programmera i främst Python.</h2>
 
 <h3>FotbollStatistik:</h3>
-Använder Selenium för att hämta statistik för en fotbollsspelare. Räcker med en input på T. Ex. efternamnet på en spelare; "Pogba" hämtar statistiken för "Paul Pogba". Använder sedan mplsoccer för att visuellt framställa statistiken i ett pajdiagram uppdelat i tre olika statistikområden: offensivt/defensivt/spel med boll. Har även lagt till så att en ansiktsbild läggs till i mitten, samt en flagga till vänster om namnet.
+Använder Selenium för att hämta statistik för en fotbollsspelare. Räcker med en input på T. Ex. efternamnet på en spelare; "Pogba" hämtar statistiken för "Paul Pogba". Använder sedan mplsoccer för att visuellt framställa statistiken i ett pajdiagram uppdelat i tre olika statistikområden: offensivt/defensivt/bollinnehav. Har även lagt till så att en ansiktsbild läggs till i mitten, samt en flagga till vänster om namnet.
 
 <h3>LedigaPasstider:</h3>
 Många av mina vänner och kollegor behövde boka pass inför sommaren men polisen valde att släppa tider "lite då och då". Denna använder också Selenium för att ta en skärmdump av lediga tider (ifall det finns lediga tider under den månad som parametern är inställd på). Denna skärmdump mailas sedan bifogat till en lista med mina vänners mailadresser. Laddade ursprungligen upp denna på min ordinarie github och fick en stor mängd trafik direkt, runt 600 visningar första dagarna. Fungerar tyvärr inte längre då Polisen lagt till MCaptcha som jag försökt, men inte lyckats ta mig förbi (använde då Tesseract-OCR vilken inte är tränad på captchas).
