@@ -2,7 +2,7 @@
 <h2>Ett urval av de projekt jag skapat under årets gång under tiden jag lärt mig att programmera i främst Python.</h2>
 
 [FotbollStatistik](https://github.com/TomasLehtela/FotbollStatistik)<br>
-Använder Selenium för att hämta statistik för en fotbollsspelare. Räcker med en input på T. Ex. efternamnet på en spelare; "Pogba" hämtar statistiken för "Paul Pogba". Använder sedan mplsoccer för att visuellt framställa statistiken i ett pajdiagram uppdelat i tre olika statistikområden: offensivt/defensivt/bollinnehav. Har även lagt till så att en ansiktsbild läggs till i mitten, samt en flagga till vänster om namnet.
+Använder Selenium för att hämta statistik för en fotbollsspelare. Datan som hämtas konverteras till en tabell med pandas. Räcker med en input på T. Ex. efternamnet på en spelare; "Pogba" hämtar statistiken för "Paul Pogba". Använder sedan mplsoccer för att visuellt framställa statistiken i ett pajdiagram uppdelat i tre olika statistikområden: offensivt/defensivt/bollinnehav. Har även lagt till så att en ansiktsbild läggs till i mitten (beskärs till cirkulär bild med numpy), samt en flagga till vänster om namnet (konverterar svg-format till png).
 
 Exempel på output:<br>
 <img src="https://github.com/TomasLehtela/FotbollStatistik/blob/main/exampleoutput.png" width="200" height="200">
