@@ -14,7 +14,8 @@ Många av mina vänner och kollegor behövde boka pass inför sommaren men polis
 Ett av de första projekten jag påbörjade och som fick mig att bli intresserad av programmering. En bot jag och mina vänner har på ett par kanaler, ingen moderatorfunktionalitet på denna bot utan används för att ta fram gifs av olika slag, hämtar senaste metan av loadout till Call of Duty: Warzone, samt att jag även implementerat FotbollStatistik i denna (skriv !player pogba i chatten och botten svarar med bilden som tas fram). Tanken är också att försöka få till någon slags röststyrning.
 
 [DjangoBlogg](https://github.com/TomasLehtela/DjangoBlogg)<br>
-Påbörjade bygget av en hemsida för att kunna visa mina projekt jag gjort i ett bloggformat. Fått lära mig mycket HTML och CSS här, i slutändan beslutade jag mig för att använda mig av Bootstrap 5 för simpliciteten. Detta projekt är fortfarande under konstruktion men grundfunktionaliteten finns där.
+Påbörjade bygget av en hemsida för att kunna visa mina projekt jag gjort i ett bloggformat. Fått lära mig mycket HTML och CSS här, i slutändan beslutade jag mig för att använda mig av Bootstrap 5 för simpliciteten. Detta projekt är fortfarande under konstruktion men grundfunktionaliteten finns där.<br>
+https://latti.eu.pythonanywhere.com/
 
 [PasswordManager](https://github.com/TomasLehtela/PasswordManager)<br>
 En enkel lösenordshanterare byggd med tkinter. Kan generera random lösenord, uppgifterna sparas i json-format.
